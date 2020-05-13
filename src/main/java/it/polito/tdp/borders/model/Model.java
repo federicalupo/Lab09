@@ -101,7 +101,7 @@ public class Model {
 	
 	
 	
-	public int nComponentiConnesse(){
+	public int nComponentiConnesse(){ //dubbio?
 		
 		ConnectivityInspector connectivityInspector = new ConnectivityInspector(this.grafo);
 		
