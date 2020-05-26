@@ -26,9 +26,8 @@ public class Country {
 		return stateNme;
 	}
 
-	
 
-	
+
 
 	@Override
 	public int hashCode() {
@@ -54,7 +53,7 @@ public class Country {
 
 	@Override
 	public String toString() {
-		return "Country :" + stateAbb + " " + ccode + " " + stateNme + "\n";
+		return  ccode + " " + stateNme;
 	}
 	
 	

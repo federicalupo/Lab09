@@ -54,7 +54,7 @@ public class BordersDAO {
 
 		String sql = "SELECT state1no, state2no " + 
 				"FROM contiguity " + 
-				"WHERE  contiguity.`year`<=? ";
+				"WHERE  contiguity.`year`<=? and conttype=1"; //aggiunto questo vincolo type=1
 		
 		List<Country> vertici = new LinkedList<>();
 		try {
